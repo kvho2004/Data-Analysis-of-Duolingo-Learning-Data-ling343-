@@ -5,6 +5,10 @@ format: html
 editor: visual
 ---
 
+### **IMPORTANT BEFORE STARTING:**
+
+If you do not have yet, please download the data set from source below and add it into your working folder.
+
 Source: https://www.kaggle.com/datasets/aravinii/duolingo-spaced-repetition-data?resource=download
 
 "Duolingo is an American educational technology company that produces learning apps and provides language certification. There main app is considered the most popular language learning app in the world.
