@@ -1,15 +1,16 @@
 ---
 title: "Project 1: Duolingo Spaced Repetition Data"
 author: Vivian O
-format: html
-editor: visual
+format: 
+  html: 
+    embed-resources: TRUE
 ---
 
 ### **IMPORTANT BEFORE STARTING:**
 
-If you do not have yet, please download the data set from source below and add it into your working folder.
+If you have not yet, please download the data set from the source below and add it to your working folder.
 
-Source: https://www.kaggle.com/datasets/aravinii/duolingo-spaced-repetition-data?resource=download
+**Source:** https://www.kaggle.com/datasets/aravinii/duolingo-spaced-repetition-data?resource=download
 
 "Duolingo is an American educational technology company that produces learning apps and provides language certification. There main app is considered the most popular language learning app in the world.
 
@@ -37,15 +38,7 @@ library(stringr)
 ```
 
 ```{r}
-# Set working directory if needed
-setwd("C:/Users/kvho5/OneDrive/Documents/LING343/O_hp1")
 
-# Define the path to the compressed file
-compressed_file <- "C:/Users/kvho5/OneDrive/Documents/LING343/O_hp1/settles.acl16.learning_traces.13m.csv.gz"
-
-# Define the path where you want to extract the C
-
-output_directory <- "C:/Users/kvho5/OneDrive/Documents/LING343/O_hp1/"
 
 # Unzipping the file
 unzip(compressed_file, exdir = output_directory)
